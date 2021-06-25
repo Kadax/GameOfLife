@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'life';
+
+  start: boolean = true;
+  sizeX: number = 150;
+  sizeY: number = 150;
+
+
+  startLife(){
+    this.start= !this.start;
+  }
+
+
 }
+
+
